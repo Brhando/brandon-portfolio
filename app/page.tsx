@@ -5,7 +5,7 @@ export default function Home() {
       <section className="mb-16">
         <h1 className="text-5xl font-bold mb-3">Brandon Sisco</h1>
         <p className="text-xl text-gray-400">
-          Veteran Software Engineering Student | Backend Systems | Game Development
+          Veteran Software Engineering Student building scalable backend systems and modular game architectures
         </p>
         <p className="mt-4 text-gray-300 max-w-2xl leading-7">
           I build scalable backend systems, clean APIs, and modular software architectures.
@@ -45,6 +45,14 @@ export default function Home() {
               Developed a modular turn-based RPG in Godot using C#, including combat flow,
               stamina systems, dungeon progression, inventory, and crafting mechanics.
             </p>
+            <a
+              href="https://github.com/Brhando/WhileIterating_Game"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 mt-2 inline-block hover:underline"
+            >
+              View Project →
+            </a>
           </div>
 
           <div className="p-5 border border-gray-700 rounded-lg hover:border-blue-400 transition">
@@ -54,6 +62,14 @@ export default function Home() {
               interaction data using layered architecture with controllers, services,
               and repositories.
             </p>
+            <a
+              href="https://github.com/Brhando/pond_backend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 mt-2 inline-block hover:underline"
+            >
+              View Project →
+            </a>
           </div>
         </div>
       </section>
