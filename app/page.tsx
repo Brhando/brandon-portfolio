@@ -37,6 +37,14 @@ export default function Home() {
               architecture to manage academic records while emphasizing maintainability and
               clean layering.
             </p>
+            <a
+              href="https://github.com/soph-mcnally/SFWE405Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 mt-2 inline-block hover:underline"
+            >
+              View Project →
+            </a>
           </div>
 
           <div className="p-5 border border-gray-700 rounded-lg hover:border-blue-400 transition">
