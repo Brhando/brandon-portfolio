@@ -1,6 +1,14 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white p-8 max-w-4xl mx-auto">
+      <nav className="mb-12 flex justify-between text-gray-400">
+        <span className="font-semibold text-white">BS</span>
+        <div className="space-x-6">
+          <a href="#projects" className="hover:text-white">Projects</a>
+          <a href="#skills" className="hover:text-white">Skills</a>
+          <a href="#contact" className="hover:text-white">Contact</a>
+        </div>
+      </nav>
       {/* Hero */}
       <section className="mb-16">
         <h1 className="text-5xl font-bold mb-3">Brandon Sisco</h1>
@@ -15,7 +23,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section className="mb-16">
+      <section id = "about" className="mb-16">
         <h2 className="text-3xl font-semibold mb-4">About Me</h2>
         <p className="text-gray-300 leading-7">
           I’m a Software Engineering student and Air Force veteran with experience in Java,
@@ -26,7 +34,7 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section className="mb-16">
+      <section id = "projects" className="mb-16">
         <h2 className="text-3xl font-semibold mb-6">Projects</h2>
 
         <div className="space-y-5">
@@ -83,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Skills */}
-      <section className="mb-16">
+      <section id = "skills" className="mb-16">
         <h2 className="text-3xl font-semibold mb-4">Skills</h2>
         <p className="text-gray-300 leading-7">
           Java, C#, C++, Python, Spring Boot, REST APIs, JPA/Hibernate, Git, GitHub,
@@ -92,7 +100,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section className="mb-8">
+      <section id = "contact" className="mb-8">
         <h2 className="text-3xl font-semibold mb-4">Contact</h2>
 
         <div className="space-y-2 text-gray-300">
